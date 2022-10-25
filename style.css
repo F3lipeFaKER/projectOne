@@ -1,0 +1,103 @@
+:root{
+    --menu-size: 18%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.container{
+    background-color: rgb(254, 254, 254);
+    width: 100%;
+    height: 40px;
+}
+
+.container img{
+    position: fixed;
+    left: 0;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    transition: background .9s;
+
+
+
+
+    /*
+    top: 0px;
+    left: 45%;
+    */
+}
+
+.container img:hover{
+    cursor: pointer;
+    background-color: rgb(108, 11, 188);
+}
+
+#btnclose{
+    position: relative;
+    top: 0;
+    left: 81%;
+    width: 40px;
+    height: 40px;
+
+    transition: background .9s;
+}
+
+#btnclose:hover{
+    cursor: pointer;
+    background-color:rgb(108, 11, 188);
+}
+
+
+
+
+
+nav{
+    display: none;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(140, 0, 255);
+
+}
+
+
+ul{
+      
+    list-style: none;
+}
+
+li{
+    display: block;
+    transition: background .9s;
+    padding: 20px;
+}
+
+li:hover{
+    background: rgb(108, 11, 188);
+}
+
+
+a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+
+.effect{
+    transition: margin .6s;
+    
+    
+}
